@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; /*[overfow-x]- o eixo X é o acesso horizontal - removo scroll eixo x */
 }
 
 .navbar .nav-link { /*Ajusto devinições meno navegação*/
@@ -67,20 +67,22 @@ body {
   color: #fff; /*Ajusto cor do icone bottão play receber branco*/
 }
 
+/*Page - Header da pagina About US*/
 #page-header {
   height: 200px;
   background: url('../img/image1.jpg');
   background-position: 0 -360px;
-  background-attachment: fixed;
-  color: #fff;
+  background-attachment: fixed;/*mantenho img fixa ao plano de fundo*/
+  color: #fff;/*cor do texto branca*/
   border-bottom: 1px #eee solid;
-  padding-top: 50px;
+  padding-top: 50px; /*Posição pixels altura do texto ao top*/
 }
 
-.about-img {
-  margin-top: -50px;
+.about-img { /*Imagem do header - padding About US*/
+  margin-top: -50px; /*Posiciono recuo ao top, envadindo um pequena da sessão do header */
 }
 
+/*Page. Services id: Faq - ajustando colapse, perguntas e respostas*/
 #faq .card {
   border: #444;
 }
@@ -95,6 +97,7 @@ body {
   background: #333;
 }
 
+/*Page. blog ajustando rodape cor fundo e texto*/
 #main-footer {
   background: #000;
   color: #fff;

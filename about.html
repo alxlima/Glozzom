@@ -9,6 +9,8 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+
+  <!-- link Java Script  - slick slider cdn - CSS/JS -  fileshttps://cdnjs.com/libraries/slick-carousel   https://cdnjs.com/libraries/slick-carousel/1.9.0   -->  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
   <link rel="stylesheet" href="css/style.css">
@@ -16,7 +18,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!-- add Menu Navbar- fundo escuro text claro-->
     <div class="container">
       <a href="index.html" class="navbar-brand">Glozzom</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -27,7 +29,7 @@
           <li class="nav-item">
             <a href="index.html" class="nav-link">Home</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item active">   <!-- [active] deixo ativo menu selecionado ref a pagina-->
             <a href="about.html" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
@@ -72,7 +74,7 @@
             praesentium temporibus adipisci debitis labore!</p>
         </div>
         <div class="col-md-6">
-          <img src="https://source.unsplash.com/random/700x700/?technology" alt="" class="img-fluid rounded-circle d-none d-md-block about-img">
+          <img src="https://source.unsplash.com/random/700x700/?technology" alt="" class="img-fluid rounded-circle d-none d-md-block about-img"> <!--[about-img]- config. Css margim top -->
         </div>
       </div>
     </div>
@@ -83,8 +85,8 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-md-4">
-          <div class="card bg-danger text-white text-center">
-            <div class="card-body">
+          <div class="card bg-danger text-white text-center"> <!-- [bg-danger] - cor vermelho -->
+            <div class="card-body"> <!-- [card-body] - adiciono item inteno no card -->
               <i class="fas fa-building fa-3x"></i>
               <h3>Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
@@ -92,9 +94,9 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-dark text-white text-center">
+          <div class="card bg-dark text-white text-center"> <!-- [bg-dark] - cor preto 80 % escura -->
             <div class="card-body">
-              <i class="fas fa-bullhorn fa-3x"></i>
+              <i class="fas fa-bullhorn fa-3x"></i> <!-- [fa-3x] - icone, 3x tomanho do icone -->
               <h3>Sample Heading</h3>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, adipisci.
             </div>
@@ -148,16 +150,16 @@
     <div class="container">
       <h2 class="text-center">testimonials</h2>
       <div class="row text-center">
-        <div class="col">
-          <div class="slider">
+        <div class="col">  <!-- 1 coluna -->
+          <div class="slider">  <!-- incluo modelo em slide para os textos comentarios -->
             <div>
               <blockquote class="blockquote">
-                <p class="mb-0">
+                <p class="mb-0">   <!-- paragrafo com mb-0 - margem zero sem preencimento inferior-->
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat.
                 </p>
                 <footer class="blockquote-footer">John Doe From
                   <cite title="Company 1">Company 1</cite>
-                </footer>
+                </footer> <!-- [blockquote] - adicionou ao rodapé do corpo do slide com comentario do cliente nome-->
               </blockquote>
             </div>
             <div>
@@ -199,22 +201,25 @@
   </footer>
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+
+  <!-- link Java Script  - slick slider cdn - CSS/ fileshttps://cdnjs.com/libraries/slick-carousel   https://cdnjs.com/libraries/slick-carousel/1.9.0   -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
 
+    // efeito Slider Slick - jquery para a sesão de comentarios clientes 
     $('.slider').slick({
-      infinite: true,
-      slideToShow: 1,
-      slideToScroll: 1
+      infinite: true, // [infinite: true] - os slides poderam ser avançados sem para no final, retornando em clico qtd total.
+      slideToShow: 1, // [slideToShow: 1] - visualizar a cada seleção de slide 1 para 1
+      slideToScroll: 1 // [slideToScroll: 1] - deslisar a cada slide 1 para 1
     });
   </script>
 </body>

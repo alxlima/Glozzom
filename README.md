@@ -31,7 +31,7 @@
 
 <!----- Acess Deploy Demonstration-->
  <h5 align="center">
-    🎬 Clique Aqui: &nbsp; <a href="https://glozzom.vercel.app/">  Visualizar Demonstração </a> 
+    🎬 Clique Aqui: &nbsp; <a href="https://glozzom-nine.vercel.app/">  Visualizar Demonstração </a> 
  </h5>
 
 
@@ -50,10 +50,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp; A construção e desenvolvimento foi aplicado sobre conceitos de aplicação das principais bibliotecas **Bootstrap 4**. &nbsp;&nbsp; O layou é responsivo com menus de navegações fixadas na parte superior e recursos de eventos **Carrossel**, aplicados a reprodução das imagens em **ShowCase** e efeitos de imagem **Parallax** em sobreposição da corpo da pagina **Home**.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Há uma sessão com botão play para reproduzir **Vídeo Modal**, quando acionado na página inicial, um determinado vídeo do YouTube começa a ser reproduzido, através de funções autônomas por codificação em **Java Script**, incluindo recursos de acordeão usados na seção sobre.
-&nbsp;&nbsp; A sessão de **Fotos Galeria**, inclui um script: Ekko-[LightBox](https://ashleydw.github.io/lightbox/), contendo um efeito que apresenta uma luz ao clicar na foto utilizado para expandir  as imagens.
+&nbsp;&nbsp; A sessão de **Fotos Galeria**, inclui uma **API** script: Ekko-[LightBox](https://ashleydw.github.io/lightbox/), contendo um efeito que apresenta uma luz ao clicar na foto utilizado para expandir  as imagens.
 
 &nbsp;&nbsp;&nbsp;&nbsp; O Layout das demais paginas filhas sobre endereços de links posicionados na **Home Page**, basicamente são mais simples e são as seguintes paginas:
-  > * **About US** - Contem um cabeçalho como imagem de abertura, tenho no corpo box com ícones, textos e um controle deslizante criado por script:**Carrossel Slick**, o que permite rolagem de paginas através de depoimentos ou scroll padrão.
+  > * **About US** - Contem um cabeçalho como imagem de abertura, tenho no corpo box com ícones, textos e um controle deslizante no rodapé, criado através de script: **Ken Weeler** [Slick](https://kenwheeler.github.io/slick/), o que permite rolagem de depoimentos com efeito de slider do **Slick** ou scroll padrão.
  >  *  **Our Services** - Contem alguns planos de serviços de assinaturas detalhados em **Card's** com cabeçalhos e rodapés com listas de grupos, incluindo um evento **Acordeão**, pra diferentes tipo de questões e respostas.
  >  * **Blog** - Contem basicamente colunas de cartões, com títulos de imagens do autor e citações de textos.
  >  * **Contact** - Contem algumas informações de contato, incluindo um pequeno formulário e imagens de membros da equipe e tudo responsivo. 
