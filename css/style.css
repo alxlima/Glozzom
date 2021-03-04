@@ -52,19 +52,19 @@ body {
   background: rgba(0, 0, 0, 0.7);/*Cor padrão alpha escura para sobreposição img*/
 }
 
-#video-play {
+#video-play { /*Config. Area do video e imagem fundo*/
   position: relative;
   min-height: 200px;
-  background: url('../img/media.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: 0 -300px;
+  background: url('../img/media.jpg'); /*posiciono a imagem de fundo*/
+  background-attachment: fixed; /*[attachment]-propriedade de anexo de fundo como fixo*/
+  background-repeat: no-repeat; /*[no-repeat]-para poder dar o efeito de fundo de parallax*/
+  background-position: 0 -300px; /* mover de 300 px positivo para 300 negativo*/
   text-align: center;
   color: #fff;
 }
 
 #video-play a {
-  color: #fff;
+  color: #fff; /*Ajusto cor do icone bottão play receber branco*/
 }
 
 #page-header {
