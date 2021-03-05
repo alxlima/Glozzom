@@ -10,23 +10,24 @@
   
 <!---------- Badges ----------------->  
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=made by&message=Alex Lima&color=3292a6&labelColor=000000" alt="Alex Lima" />
+  <img src="https://img.shields.io/static/v1?label=made by&message=Alex Lima&color=444&labelColor=000000" alt="Alex Lima" />
  
-  <img alt="Last commit" src="https://img.shields.io/static/v1?label=Last commit&message=March&color=3292a6&labelColor=000000">
+  <img alt="Last commit" src="https://img.shields.io/static/v1?label=Last commit&message=March&color=444&labelColor=000000">
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=3292a6&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=444&labelColor=000000">
 
-  <img alt="repo size" src="https://img.shields.io/static/v1?label=repo size&message=14.08 MB&color=3292a6&labelColor=000000">
+  <img alt="repo size" src="https://img.shields.io/static/v1?label=repo size&message=35.4 MB&color=444&labelColor=000000">
   <!----(4953b8)--BluePurple -->
   <!----(49AA26)--Green -->
   <!----(008ed6)--Blue -->
   <!----(3292a6)--BlueMedium-->
+   <!----(444)----BlackMedium-->
 </p>
 <br>
 
 <!---------- showcase  ----------------->  
 <p align="center">
-  <img alt="glozzomLogo" src="prints/glozzomLogo.png" width="100%">
+  <img alt="glozzomLogo" src="img/laptop.png" width="100%">
 </p>
 
 <!----- Acess Deploy Demonstration-->
@@ -69,9 +70,10 @@
 ## 💻 **Telas**
 
 <div align="center">
-  <img src="prints/00.gif" width="100%" height="auto">
-  <img src="prints/01.gif" width="100%" height="auto">
-  <img src="prints/02.gif" width="100%" height="auto">
+  <img src="screens_shot/00.gif" width="100%" height="auto">
+  <img src="screens_shot/01.gif" width="100%" height="auto">
+  <img src="screens_shot/02.gif" width="100%" height="auto">
+  <img src="screens_shot/03.gif" width="100%" height="auto">
 </div>
 <br>
 <br>
